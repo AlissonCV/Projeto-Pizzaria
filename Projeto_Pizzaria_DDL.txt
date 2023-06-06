@@ -1,4 +1,4 @@
---CREATE SCHEMA pizzadelivery;
+CREATE SCHEMA IF NOT EXISTS pizzadelivery;
 
 SET search_path TO pizzadelivery;
 SET datestyle TO 'DMY';
